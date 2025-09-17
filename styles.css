@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(./assets/font/Raleway-VariableFont_wght.ttf);
+  src: url(./assets/font/Raleway-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding-right: 124px;
+    padding-left: 124px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    box-shadow: 10px 0px 5px rgb(0, 0, 0, 0.3);
+}
+
+.logo{
+    height: 64px;
+    width: auto;
+    padding-bottom: 16px;
+}
+
+.nav{
+
+}
+
+.navbar_links{
+    color:#000000 ;
+    padding-left: 26px;
+    text-decoration: none;
+    
+
+}
+
+.navbar_links:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+    transition: color 125ms;
+    color:#008000 ;
+    padding-left: 26px;
+}
+
+/* Header endet hier */
