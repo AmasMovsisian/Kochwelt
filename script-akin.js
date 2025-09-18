@@ -34,3 +34,8 @@ adjustBtn.addEventListener('click', () => {
     amountElement.textContent = newAmount.toFixed(0);
   });
 });
+
+function toggleMenu() {
+    document.getElementById('menu').classList.toggle('d_none');
+}
+
