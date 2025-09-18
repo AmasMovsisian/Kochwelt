@@ -1,0 +1,275 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/raleway-v37-latin-regular.woff2') format('woff2');
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/raleway-v37-latin-700.woff2') format('woff2');
+}
+
+  /* raleway-700italic - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./fonts/raleway-v37-latin-700italic.woff2') format('woff2');
+}
+
+/* Header Styles */
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 144px;
+    padding-left: 168px;
+    padding-right: 168px;
+    padding-bottom: 8px;
+    border-bottom: #eeeeee 5px solid;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 32px; 
+}
+
+nav a:hover {
+    color: #008000;
+    text-decoration: underline;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    text-underline-offset: 14px; /* Fügt 5px Abstand hinzu */
+    text-decoration-thickness: 6px; /* Macht die Linie dicker */
+}
+
+/* Main Styles */
+
+main {
+    min-height: calc(100vh - 96px - 144px); /* Header und Footer Höhe abziehen */
+    padding: 64px 168px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 296px;
+    object-fit: cover;
+    padding-bottom: 32px;
+    border-radius: 16px;
+}
+
+.prep-icons {
+    height: 16px;
+    object-fit: contain;
+    padding-right: 16px;
+    vertical-align: middle;
+    }
+
+.prep-info-container {
+    display: flex;
+    gap: 24px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    padding: 4px 16px;
+    border-radius: 8px;
+    vertical-align: middle;;
+}
+
+.hero {
+    padding-bottom: 64px;
+    border-bottom: #eeeeee 1px solid;
+}
+
+/* Ingredients Section */
+
+.portions-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#portions {
+  width: 152px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+#adjust-btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #008000;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 152px;
+  font-size: 16px;
+}
+
+.ingredients {
+    padding-top: 16px;
+}
+
+.ingredients-for {
+  padding-right: 16px;
+}
+
+.ingredients-list {
+  list-style: none; /* Entfernt die Standard-Aufzählungszeichen */
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient {
+  display: flex; /* Richtet die Spalten aus */
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  border-radius: 8px;
+}
+
+/* Abwechselnde Farben */
+.ingredient:nth-child(odd) {
+  background-color: #efefef; /* Grau */
+}
+
+.ingredient:nth-child(even) {
+  background-color: #ffffff; /* Weiß */
+}
+
+.amount {
+  width: 40px; /* Fixe Breite für die Mengen-Spalte */
+  font-weight: bold;
+}
+
+.unit {
+  width: 50px; /* Fixe Breite für die Einheiten-Spalte */
+}
+
+.ingredient-name {
+  flex: 1; /* Nimmt den restlichen Platz ein */
+  padding-left: 16px;
+}
+
+
+/* Preparation Section */
+
+
+.preparation {
+    padding-top: 64px;
+}
+
+h2 {
+    padding-bottom: 16px;
+}
+
+.preparation-steps {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 24px;
+}
+
+.recipe-creator {
+    padding-top: 32px;
+}
+
+.creator-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 24px;
+}
+
+.name-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creator-name {
+    font-size: 36px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #403b3b;
+    display: flex;
+    justify-content: space-between;
+    height: 288px;
+    width: 100%;
+    align-items: center;
+    padding-right: 88px;
+    padding-left: 88px;
+}
+
+.logo-big {
+    height: 80px;
+    object-fit: contain;
+}
+
+.sm-logo-footer {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+}
+
+.social-media {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
