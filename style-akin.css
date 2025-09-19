@@ -19,7 +19,7 @@ body {
 
 .limitation-container {
   max-width: 1440px; /* Oder der gewünschte Wert, z.B. 1440px */
-  margin: 0 auto;
+  margin: 0;
 }
 
 
