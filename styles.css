@@ -351,6 +351,19 @@ footer {
     background: darkgreen;
 }
 
+.email-sent {
+  text-decoration: none;
+  color: white;
+}
+
+.email-received {
+  background-color: #008000;
+  color: white;
+  display: inline-block;
+  padding: 150px;
+  text-align: center;
+}
+
 @media(max-width:1084px) {
 
     h3{
