@@ -46,34 +46,31 @@ header {
   padding-left: 26px;
 }
 
-.Burger_Menu{
+.burger_Menu {
   width: 40px;
   height: auto;
   padding-left: 32px;
   padding-bottom: 25px;
   display: none;
-  
 }
 
-.burger_menu_close{
+.burger_menu_close {
   width: 40px;
   height: auto;
-  
-
 }
 
-nav ul{
+nav ul {
   width: 100%;
   list-style: none;
 }
 
-nav a{
+nav a {
   text-decoration: none;
-  color: #230f0e;;
+  color: #230f0e;
   margin-top: 16px;
 }
 
-.sidebar{
+.sidebar {
   margin: 0;
   position: fixed;
   top: 0;
@@ -86,9 +83,8 @@ nav a{
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
-  align-items:flex-start ;
+  align-items: flex-start;
   justify-content: flex-start;
-
 }
 
 .sidebar li {
@@ -99,16 +95,14 @@ nav a{
 
 .sidebar a {
   width: 100%;
-  
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 8px;
   transition: color 125ms;
   color: #008000;
-
 }
 
 /* Header endet hier */
@@ -179,13 +173,13 @@ h5 {
   margin: 0;
 }
 
-.neue_rezepte {
+.new_recipes {
   background-color: #efefef;
   padding-top: 24px;
   padding-bottom: 62px;
 }
 
-.neue_rezepte_headlining {
+.new_recipes_headlining {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +187,7 @@ h5 {
   color: #230f0e;
 }
 
-.section_neue_rezepte {
+.section_new_recipes {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -201,7 +195,7 @@ h5 {
   margin-right: 20px;
 }
 
-.neue_rezepte_img {
+.new_recipes_img {
   height: 186px;
   width: 186px;
   object-fit: cover;
@@ -210,7 +204,7 @@ h5 {
   border-radius: 10px;
 }
 
-.neue_rezepte_img_text {
+.new_recipes_img_text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -256,185 +250,175 @@ h5 {
 /* Section what is better ende hier */
 
 footer {
-    background-color: #403b3b;
-    display: flex;
-    justify-content: space-between;
-    height: 288px;
-    
-    align-items: center;
-    padding-right: 88px;
-    padding-left: 88px;
+  background-color: #403b3b;
+  display: flex;
+  justify-content: space-between;
+  height: 288px;
+
+  align-items: center;
+  padding-right: 88px;
+  padding-left: 88px;
 }
 
-.logo-small{
+.logo-small {
   display: none;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo-big {
-    height: 80px;
-    object-fit: contain;
+  height: 80px;
+  object-fit: contain;
 }
 
 .sm-logo-footer {
-    height: 32px;
-    width: 32px;
-    object-fit: contain;
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
 }
 
 .social-media {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .social-media a:hover {
-    transform: scale(1.1);
-    transition: all 0.15s ease-in-out;
-    cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
 }
 
 /* Footer endet hier */
 
+@media (max-width: 1084px) {
+  h3 {
+    text-align: center;
+  }
 
+  .main_section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-@media(max-width:1084px) {
+  .main_text {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    h3{
-        text-align: center;
-    }
-
-    .main_section{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main_text{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main_headlining{
-        margin-top: 16px;
-    }
+  .main_headlining {
+    margin-top: 16px;
+  }
 }
 
-@media(max-width:924px) {
-   
-  .navbar_links{
+@media (max-width: 924px) {
+  .navbar_links {
     display: none;
   }
 
-    .Burger_Menu{
-
-      display: flex;
-    }
-
+  .burger_Menu {
+    display: flex;
+  }
 }
 
-@media(max-width:776px) {
-
-  .header{
+@media (max-width: 776px) {
+  .header {
     justify-content: center;
   }
-    h2{
-        text-align: center;
-    }
+  h2 {
+    text-align: center;
+  }
 
-    .main_img{
-        margin: 0;
-    }
+  .main_img {
+    margin: 0;
+  }
 
-    .section_neue_rezepte{
-        flex-direction: column;
-    }
-
-    .what_is_better_img_text{
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-
-    .what_is_better_img{
-        margin: 0;
-        margin-bottom: 16px;
-        align-items: center;
-    }
-}
-
-@media(max-width:600px){
-
-    .footer-container{
+  .section_new_recipes {
     flex-direction: column;
   }
 
-  .logo-big{
-    margin-bottom: 24px;
+  .what_is_better_img_text {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
   }
-  
+
+  .what_is_better_img {
+    margin: 0;
+    margin-bottom: 16px;
+    align-items: center;
+  }
 }
 
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
 
+  .logo-big {
+    margin-bottom: 24px;
+  }
+}
 
-@media(max-width:520px) {
-  .main_img{
+@media (max-width: 520px) {
+  .main_img {
     width: 280px;
     height: auto;
   }
 
-
-header {
+  header {
     justify-content: center;
     align-items: flex-start;
-}
+  }
 
-.logo {
+  .logo {
     height: 42px;
     width: auto;
-}
+  }
 
-.Burger_Menu{
-  width: 35px;
-  height: auto;
-  padding-top: 12px;
-  padding-bottom: 0px;
-}
+  .burger_Menu {
+    width: 35px;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 0px;
+  }
 
-.sidebar{
-  width: 100%;
-  text-align: center;
-  padding-top: 64px;
-}
+  .burger_menu_close {
+    padding-left: 12px;
+  }
 
-.main_section {
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    padding-top: 64px;
+  }
+
+  .main_section {
     padding-bottom: 64px;
     padding-top: 64px;
     padding-right: 16px;
     padding-left: 16px;
-}
+  }
 
-h2{
-  font-size: 18px;
-}
+  h2 {
+    font-size: 18px;
+  }
 
-h3{
-  font-size: 13px;
-}
+  h3 {
+    font-size: 13px;
+  }
 
-h4{
-  font-size: 11px;
-}
-
+  h4 {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 480px) {
-
   .footer-container {
     align-items: center;
   }
