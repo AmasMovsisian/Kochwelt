@@ -29,7 +29,7 @@ adjustBtn.addEventListener('click', () => {
     const amountElement = ingredient.querySelector('.amount');
     const basisAmount = basisAmounts[index];
 
-    // Neue Menge berechnen und auf 2 Nachkommastellen runden
+    // Neue Menge berechnen ohne Nachkommastellen
     const newAmount = (basisAmount / basisPortions) * newPortions;
     amountElement.textContent = newAmount.toFixed(0);
   });
