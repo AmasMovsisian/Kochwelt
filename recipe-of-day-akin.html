@@ -17,13 +17,20 @@
                     <a href="index.html"><img class="logo-small" src="./assets/img/logo_small.png" alt="Kochwelt Logo"></a>
                 
                 
-                    <nav class="topnav" id="myTopnav">  
+                    <nav class="topnav" id="myTopnav">
                         <a href="index.html">Start</a>
                         <a href="recipe-of-the-day">Rezept des Tages</a>
                         <a href="contact.html">Kontakt</a>
                         <a href="impressum.html">Impressum</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i></a>
+                        <a href="" onclick=showSidebar(event)><img src="./assets/img/icons/Burger_Menu.png" alt="Burger Menu icon" class="burger-menu"></a> 
+
+                        <ul class="sidebar">
+                            <a href="#" onclick=hideSidebar(event)><img src="./assets/img/icons/Burger_Menu_Close.png" alt="burger_menu_close" class="burger-menu-close"></a>
+                            <li><a href="">Start</a></li>
+                            <li><a href="">Rezept des Tages</a></li>
+                            <li><a href="">Kontakt</a></li>
+                            <li><a href="">Impressum</a></li>
+                        </ul>
                     </nav>
             </div>    
         </header>
