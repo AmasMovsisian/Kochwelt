@@ -35,7 +35,23 @@ adjustBtn.addEventListener('click', () => {
   });
 });
 
-function toggleMenu() {
-    document.getElementById('menu').classList.toggle('d_none');
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
 
+function showSidebar(event) {
+  event.preventDefault();
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex";
+}
+
+function hideSidebar(event) {
+  event.preventDefault();
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "none";
+}

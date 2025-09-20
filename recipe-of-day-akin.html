@@ -3,63 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-akin.css">
+    <link rel="stylesheet" href="style-recipe-of-day-akin.css">
     <script defer src="script-akin.js"></script>
     <link rel="icon" type="image/x-icon" href="./assets/img/kochwelt_favicon_white.ico">
     <title>KOCHWELT</title>
 </head>
-<body>
+    <body>
     
-        <header>
-            <div class="limitation-container header-container">
+        <header class="limitation-container">
+            <div class="header-container">
                 <a href="index.html"><img class="logo-big" src="./assets/img/logo.png" alt="Kochwelt Logo"></a>
                
                     <a href="index.html"><img class="logo-small" src="./assets/img/logo_small.png" alt="Kochwelt Logo"></a>
                 
-
-                <!-- button.burger_menue>span*3 -->
-                <button class="burger_menu" onclick="toggleMenu()">
-                    <span class="burger_line"></span>
-                    <span class="burger_line"></span>
-                    <span class="burger_line"></span>
-                </button>
-                <nav id="menu" class="d_none" onclick="toggleMenu()">
-                    <ul>
-                        <li><a href="">start</a></li>
-                        <li><a href="">rezept</a></li>
-                        <li><a href="">kontakt</a></li>
-                        <li><a href="">impressum</a></li>
-                    </ul>
-                </nav>
                 
-                
-                
-                <nav>     
-                    <a href="index.html">Start</a>
-                    <a href="recipe-of-the-day">Rezept des Tages</a>
-                    <a href="contact.html">Kontakt</a>
-                    <a href="impressum.html">Impressum</a>
-                </nav>
+                    <nav class="topnav" id="myTopnav">  
+                        <a href="index.html">Start</a>
+                        <a href="recipe-of-the-day">Rezept des Tages</a>
+                        <a href="contact.html">Kontakt</a>
+                        <a href="impressum.html">Impressum</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i></a>
+                    </nav>
             </div>    
         </header>
         
-        <main>
-            <div class="limitation-container">
+        <main class="limitation-container">
+            
                 <section class="hero">
                     <h1>Knoblauchgarnelen-Bowl</h1>
-                    <img class="hero-img" src="./assets/img/grilled-shrimp-7577730_1280.jpg" alt="Image of Knoblauchgarnelen-Bowl">
+                    <img class="hero-img limitation-container" src="./assets/img/grilled-shrimp-7577730_1280.jpg" alt="Image of Knoblauchgarnelen-Bowl">
                     
-                    <div class="prep-info-container">
-                        <div class="info-item">
-                            <p><img class="prep-icons" src="./assets/img/icons/clock-regular.svg">25 Min.</p>
-                        </div>
-                        <div class="info-item">
-                            <p><img class="prep-icons" src="./assets/img/icons/brain-solid.svg">simpel</p>
-                        </div>
+                        <div class="prep-info-container">
                             <div class="info-item">
-                            <p><img class="prep-icons" src="./assets/img/icons/calendar-alt-regular.svg">17.09.2025</p>
-                        </div>
-                    </div>
+                                <p><img class="prep-icons" src="./assets/img/icons/clock-regular.svg">25 Min.</p>
+                            </div>
+                            <div class="info-item">
+                                <p><img class="prep-icons" src="./assets/img/icons/brain-solid.svg">simpel</p>
+                            </div>
+                            <div class="info-item">
+                                <p><img class="prep-icons" src="./assets/img/icons/calendar-alt-regular.svg">17.09.2025</p>
+                            </div>  
                 </section>
                 
                 <section class="ingredients">    
@@ -129,7 +113,7 @@
                 </section>
                 
                 <section class="preparation">
-                    <h2>Zubereitung</h2>
+                        <h2>Zubereitung</h2>
                     <div class="prep-info-container">
                         <div class="info-item">
                             <p><img class="prep-icons" src="./assets/img/icons/clock-regular.svg">ca. 10 Min.</p>
@@ -170,19 +154,18 @@
                             </ol>
                         </div>
                 
-                <div class="recipe-creator">
-                    <h3>Rezept erstellt von</h3>
-                
-                    <div class="name-img-container">  
-                        <img class="creator-img" src="./assets/img/leica_profile_image.jpg" alt="Image of the recipe creator">
-                        <p class="creator-name">Akin</p>
+                    <div class="recipe-creator">
+                            <h3>Rezept erstellt von</h3>
+                    
+                        <div class="name-img-container">  
+                            <img class="creator-img" src="./assets/img/leica_profile_image.jpg" alt="Image of the recipe creator">
+                            <p class="creator-name">Akin</p>
+                        </div>
                     </div>
-                </div>
 
 
                 </section>
-            </main>
-        </div>
+        </main>
 
             <footer>
                 <div class="limitation-container footer-container">    
