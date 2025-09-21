@@ -1,0 +1,222 @@
+
+.hero{
+    margin-left: 126px;
+    margin-right: 126px;
+
+}
+
+.hero_image{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe_headlining{
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-top: 84px;
+    margin-bottom: 32px;
+}
+
+
+.hero_icons{
+    width: 16px;
+    height: auto;
+    padding-right: 16px;
+}
+
+h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
+
+.hero_infos{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
+
+.clock_icon_text{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:rgba(239, 239, 239);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    margin-right: 24px;
+}
+
+.brain_icon_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:rgba(239, 239, 239);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    margin-right: 24px;
+}
+
+.calendar_icon_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:rgba(239, 239, 239);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    margin-right: 24px;
+
+}
+
+.hero_line{
+    width: 100%;
+    height: 2px;
+
+    margin-top: 84px;
+    background-color:rgba(239, 239, 239);
+    
+}
+            
+/* Hier endet Hero Section */
+
+
+.section_portions_ingredients{
+    margin-left: 126px;
+    margin-right: 126px;
+}
+
+.section_portions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 16px;
+    
+}
+
+.ingredients_for_text{
+margin-right: 16px;
+}
+
+#button{
+  background-color: #008000;
+  color: white;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  cursor: pointer;
+  flex-grow: 0;
+}
+
+#amount{
+ padding-left: 46px;
+  padding-right: 84px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 10px 0 0 10px;
+  border: 2px solid rgba(239, 239, 239);
+  text-align: center;
+  font-size: 16px;
+}
+
+ .section_ingredients {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+ul{
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+    
+}
+
+
+.ing{
+    padding-right: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+
+.ing_meta{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-right: 32px;
+    
+}
+
+.bg_grey{
+    border-radius: 10px;
+    background-color:rgba(239, 239, 239) ;
+}
+
+h3{
+    color: black;
+    font-weight: lighter;
+}
+.ing_text{
+    color: black;
+    font-weight: lighter;
+}
+
+
+/* Hier endet section Portions und Ingredients */
+
+.preparation_text{
+    margin-top: 32px;
+}
+
+/* Hier endet section Article */
+
+.section_profile{
+    margin-bottom: 86px;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile_image_amas{
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile_name{
+    margin-left: 32px;
+    font-size: 24px;
+}
