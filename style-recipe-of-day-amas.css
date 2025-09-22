@@ -136,7 +136,7 @@ margin-right: 16px;
   padding-bottom: 10px;
 
   border-radius: 10px 0 0 10px;
-  border: 2px solid rgba(239, 239, 239);
+  border: 1px solid rgba(239, 239, 239);
   font-size: 16px;
   text-align: center;      
 }
@@ -203,6 +203,10 @@ h3{
     margin-top: 32px;
 }
 
+.text_numbers{
+    font-weight: bold;
+}
+
 /* Hier endet section Article */
 
 .section_profile{
@@ -225,4 +229,313 @@ h3{
 .profile_name{
     margin-left: 32px;
     font-size: 24px;
+}
+
+@media(max-width:924px) {
+
+    .hero_image {
+    width: 100%;
+    height: 250px;
+}
+
+.recipe_headlining {
+   text-align: center;
+}
+
+.hero_infos {
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+
+.clock_icon_text{
+    margin: 0;
+}
+
+.brain_icon_text{
+    margin: 0;
+}
+
+.calendar_icon_text{
+margin: 0;
+}
+
+
+.section_portions {
+    justify-content: center;
+    align-items: center;
+}
+
+.ing_meta {
+    justify-content: flex-end;
+    margin-right: 32px;
+    margin-left: 25%;
+}
+
+.ing_text {
+   text-align: start;
+}
+
+.profile{
+    justify-content: center;
+}
+
+}
+
+@media(max-width:800px) {
+
+    .hero {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.hero_icons {
+    width: 12px;
+    height: auto;
+    padding-right: 8px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+.ingredients_for_text{
+    font-size: 14px;
+}
+
+#amount {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.ing_meta {
+    justify-content: flex-end;
+    margin-right: 16px;
+    margin-left: 20%;
+}
+
+}
+
+@media(max-width:676px) {
+
+    .hero_image{
+    width: 100%;
+    height: 150px;
+    }
+    
+    .section_portions_ingredients {
+    margin-left: 64px;
+    margin-right: 64px;
+    }
+
+}
+
+@media(max-width:520px) {
+
+        .hero {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+    .hero_image{
+    width: 100%;
+    height: 150px;
+    }
+    
+    .section_portions_ingredients {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+    .recipe_headlining {
+    font-size: 24px;
+    margin-top: 46px;
+}
+
+    h5 {
+        font-size: 9px;
+    }
+
+    .hero_line{
+        margin-top: 46px;
+    }
+
+        .ingredients_for_text {
+        font-size: 14px;
+    }
+
+        #amount {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #button {
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    }
+
+    .ing_meta {
+        justify-content: flex-end;
+        margin-right: 16px;
+        margin-left: 15%;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+        .recipe_headlining {
+        font-size: 18px;
+    }
+
+}
+
+/* @media(max-width:424px) {
+
+        .hero {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+    .hero_image{
+    width: 100%;
+    height: 150px;
+    }
+    
+    .section_portions_ingredients {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+    .recipe_headlining {
+    font-size: 24px;
+}
+
+    h5 {
+        font-size: 9px;
+    }
+
+    .hero_line{
+        margin-top: 46px;
+    }
+
+        .ingredients_for_text {
+        font-size: 12px;
+    }
+
+        #amount {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #button {
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    }
+
+    .ing_meta {
+        justify-content: flex-end;
+        margin-right: 16px;
+        margin-left: 10%;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+        .recipe_headlining {
+        font-size: 18px;
+    }
+
+} */
+
+@media(max-width:404px) {
+
+        .hero {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+    .hero_image{
+    width: 100%;
+    height: 124px;
+    }
+    
+    .section_portions_ingredients {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+    .recipe_headlining {
+    font-size: 24px;
+}
+
+    h5 {
+        font-size: 8px;
+    }
+
+    .hero_line{
+        margin-top: 46px;
+    }
+
+  .hero_icons {
+    width: 10px;
+    height: auto;
+    padding-right: 4px;
+}
+
+        .ingredients_for_text {
+        font-size: 14px;
+    }
+
+        #amount {
+        
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #button {
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    }
+
+    .ing_meta {
+        justify-content: flex-end;
+        margin-right: 16px;
+        margin-left:4%;
+
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+        .recipe_headlining {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:330px) {
+     .ing_meta {
+        justify-content: center;
+        margin-right: 16px;
+        margin-left:0;
+
+    }
 }
