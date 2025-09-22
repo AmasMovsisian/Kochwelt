@@ -50,121 +50,6 @@ body {
   src: url('./assets/font/raleway-v37-latin-700italic.woff2') format('woff2');
 }
 
-/* Header Styles */
-
-header {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 144px;
-    /* padding-left: 168px; */
-    /* padding-right: 168px; */
-    /* padding-bottom: 8px; */
-    border-bottom: #eeeeee 5px solid;
-    font-size: 24px;
-    /* padding-top: 24px; */
-}
-
-.logo-small {
-  display: none;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
-    padding-right: 184px;
-    padding-left: 184px;
-}
-
-.topnav {
-  /* overflow: hidden; */
-  color: black;
-  display: flex;
-  justify-content: flex-end;
-  gap: 24px;
-}
-
-.topnav a {
-  font-size: 17px;
-  text-decoration: none;
-  color: #000000;
-  font-weight: 400;
-  padding-bottom: 5px;
-}
-
-.topnav a:hover {
-  color: #008000;
-  text-decoration: underline;
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
-  text-underline-offset: 12px; /* Fügt 5px Abstand hinzu */
-  text-decoration-thickness: 4px; /* Macht die Linie dicker */
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.burger-menu {
-  width: 40px;
-  height: auto;
-  padding-left: 32px;
-  padding-bottom: 25px;
-  display: none;
-}
-
-.burger-menu-close {
-  width: 40px;
-  height: auto;
-}
-
-nav ul {
-  width: 100%;
-  list-style: none;
-}
-
-.sidebar {
-  margin: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: rgba(239, 239, 239, 0.9);
-  backdrop-filter: 10px;
-  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.sidebar li {
-  width: 100%;
-  padding-top: 32px;
-  padding-left: 8px;
-}
-
-.sidebar a {
-  width: 100%;
-}
-
-.sidebar a:hover {
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
-  transition: color 125ms;
-  color: #008000;
-}
 
 
 /* Main Styles */
@@ -327,53 +212,7 @@ h2 {
     padding-left: 16px;
 }
 
-/* Footer Styles */
 
-footer {
-    background-color: #403b3b;
-    display: flex;
-    justify-content: space-between;
-    height: 288px;
-    
-    align-items: center;
-    padding-right: 88px;
-    padding-left: 88px;
-}
-
-.logo-small{
-  display: none;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-left: 96px;
-    padding-right: 96px;
-}
-
-.logo-big {
-    height: 80px;
-    object-fit: contain;
-}
-
-.sm-logo-footer {
-    height: 32px;
-    width: 32px;
-    object-fit: contain;
-}
-
-.social-media {
-    display: flex;
-    gap: 16px;
-}
-
-.social-media a:hover {
-    transform: scale(1.1);
-    transition: all 0.15s ease-in-out;
-    cursor: pointer;
-}
 
 /* Responsive Design für max-breite 1280px */
 
@@ -381,10 +220,6 @@ footer {
 
   .topnav {
     display: none;
-  }
-
-  .burger-menu {
-    display: flex;
   }
 
 }
@@ -395,6 +230,13 @@ footer {
     font-size: 36px;
   }
 }
+
+/* @media (max-width: 924px) {
+
+  .burger_menu{
+    display: flex;
+  }
+} */
 
 /*@media (max-width: 797px) {
   main {
@@ -461,22 +303,6 @@ footer {
   }
 }
 
-.burger-menu {
-    width: 35px;
-    height: auto;
-    padding-top: 12px;
-    padding-bottom: 0px;
-  }
-
-  .burger-menu-close {
-    padding-left: 12px;
-  }
-
-  .sidebar {
-    width: 100%;
-    text-align: center;
-    padding-top: 64px;
-  }
 
 @media (max-width: 480px) {
   h1 {
@@ -484,10 +310,10 @@ footer {
     text-align: center;
   }
 
-  header {
+  /* header {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
   .prep-info-container {
     padding-top: 16px;
@@ -583,13 +409,13 @@ footer {
     gap: 8px;
   }
 
-  header {
+  /* header {
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
   .header-container {
     display: flex;
