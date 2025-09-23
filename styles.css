@@ -4,6 +4,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+
 .main_recipes_links{
   text-decoration: none;
   color: #230f0e;
@@ -470,7 +471,13 @@ footer {
   .new_recipes_img{
     width: 250px;
     height: 250px;
+    margin-top: 42px;
   }
+
+  .new_recipes_headlining{
+    margin-top: 32px;
+  }
+
 
   .section_new_recipes {
     flex-direction: column;
@@ -494,6 +501,7 @@ footer {
     padding-right: 86px;
     padding-left: 86px;
 }
+
 }
 
 @media (max-width:660px) {
