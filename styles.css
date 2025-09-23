@@ -4,6 +4,15 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.main_recipes_links{
+  text-decoration: none;
+  color: #230f0e;
+}
+
+.main_recipes_links:hover{
+  color: #403b3b;
+}
+
 @font-face {
   font-family: "Raleway";
   src: url(./assets/font/Raleway-VariableFont_wght.ttf);
@@ -163,6 +172,11 @@ h3 {
   border: none;
   cursor: pointer;
   flex-grow: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.button:hover{
+  opacity: 0.9;
 }
 
 /* Main section endet hier */
@@ -202,6 +216,11 @@ h5 {
   margin-top: 24px;
   margin-bottom: 8px;
   border-radius: 10px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.new_recipes_img:hover{
+  opacity: 0.9;
 }
 
 .new_recipes_img_text {
