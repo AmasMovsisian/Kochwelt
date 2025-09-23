@@ -4,3 +4,17 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+@media (max-width:767px){
+    .impressum{
+    margin-left: 68px;
+    margin-right: 68px;
+}
+}
+
+@media (max-width:440px){
+    .impressum{
+    margin-left: 34px;
+    margin-right: 34px;
+}
+}
