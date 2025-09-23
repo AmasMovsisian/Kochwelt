@@ -387,10 +387,20 @@ footer {
 
   .main_img{
     margin-right: 0px;
+    height: 100%;
+    width: 450px;
+    object-fit: cover;
+
   }
+
+  
 
     h3{
         text-align: center;
+    }
+
+    h2{
+      font-size: 18px;
     }
 
   .main_section {
@@ -405,6 +415,10 @@ footer {
 
   .main_headlining {
     margin-top: 16px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 76px;
+    padding-right: 76px;
   }
 }
 
@@ -416,6 +430,23 @@ footer {
   .burger_Menu {
     display: flex;
   }
+
+  .what_is_better_img_text{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 126px;
+    margin-right: 126px;
+    
+  }
+
+  .what_is_better_img{
+    margin-left: 0;
+    width: 550px;
+    height: 100%;
+  }
+
+
 }
 
 @media (max-width: 776px) {
@@ -426,8 +457,19 @@ footer {
     text-align: center;
   }
 
+   .main_headlining {
+
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .main_img {
     margin: 0;
+  }
+
+  .new_recipes_img{
+    width: 250px;
+    height: 250px;
   }
 
   .section_new_recipes {
@@ -448,6 +490,15 @@ footer {
   }
 }
 
+@media (max-width:660px) {
+
+ .main_recipe_text{
+  font-size: 14px;
+  padding-left: 0;
+  padding-right: 0;
+ }
+}
+
 @media (max-width: 600px) {
   .footer-container {
     flex-direction: column;
@@ -456,12 +507,22 @@ footer {
   .logo-big {
     margin-bottom: 24px;
   }
+
+  .what_is_better_img{
+    width: 350px;
+    height: 100%;
+  }
 }
 
 @media (max-width: 520px) {
   .main_img {
     width: 280px;
     height: auto;
+  }
+
+  .new_recipes_img{
+    width: 186px;
+    height: 186px;
   }
 
   header {
@@ -508,6 +569,11 @@ footer {
 
   h4 {
     font-size: 11px;
+  }
+
+   .what_is_better_img{
+    width: 280px;
+    height: 100%;
   }
 }
 
