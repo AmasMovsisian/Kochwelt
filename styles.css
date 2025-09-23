@@ -366,6 +366,10 @@ footer {
 
 @media(max-width:1084px) {
 
+  .main_img{
+    margin-right: 0px;
+  }
+
     h3{
         text-align: center;
     }
