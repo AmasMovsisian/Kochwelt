@@ -351,9 +351,6 @@ h3 {
         margin-top: 46px;
     }
 
-    h5 {
-        font-size: 9px;
-    }
 
     .hero_line {
         margin-top: 46px;
@@ -417,9 +414,6 @@ h3 {
         font-size: 24px;
     }
 
-    h5 {
-        font-size: 8px;
-    }
 
     .hero_line {
         margin-top: 46px;
@@ -464,6 +458,24 @@ h3 {
 
     .recipe_headlining {
         font-size: 18px;
+    }
+
+        .hero_infos_2 {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clock_icon_text{
+        margin-bottom: 8px;
+    }
+    .brain_icon_text{
+        margin-bottom: 8px;
+    }
+
+    .calendar_icon_text{
+        margin-bottom: 8px;
     }
 
 }
