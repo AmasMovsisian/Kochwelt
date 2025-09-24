@@ -572,6 +572,20 @@ footer {
   }
 }
 
+@media (max-width: 545px) {
+  .email_sent {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  .email_sent h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+
+
 @media (max-width: 520px) {
   .main_img {
     width: 360px;
@@ -632,6 +646,23 @@ footer {
   .what_is_better_img {
     width: 280px;
     height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .email_sent {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  
+  .email_sent h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .email_sent h2 {
+    font-size: 16px;
+    text-align: center;
   }
 }
 
