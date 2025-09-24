@@ -151,12 +151,12 @@ h3 {
 
 .main_section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding-bottom: 64px;
   padding-top: 64px;
-  padding-right: 164px;
-  padding-left: 164px;
+  padding-right: 124px;
+  padding-left: 124px;
 }
 
 .main_img {
@@ -203,9 +203,6 @@ h5 {
   background-color: #efefef;
   padding-top: 24px;
   padding-bottom: 62px;
-  padding-left: 38px;
-  padding-right: 38px;
-
 }
 
 .new_recipes_headlining {
@@ -218,8 +215,10 @@ h5 {
 
 .section_new_recipes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 124px;
+  margin-right: 124px;
 }
 
 .new_recipes_img {
@@ -264,11 +263,11 @@ h5 {
 
 .what_is_better_img_text {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
+  margin-left: 124px;
+  margin-right: 124px;
 
-  margin-left: 162px;
-  margin-right: 162px;
 }
 
 .what_is_better_img {
@@ -288,8 +287,8 @@ footer {
   height: 288px;
 
   align-items: center;
-  padding-right: 88px;
-  padding-left: 88px;
+  padding-right: 124px;
+  padding-left: 124px;
 }
 
 .logo-small {
@@ -324,6 +323,30 @@ footer {
   transition: all 0.15s ease-in-out;
   cursor: pointer;
 }
+
+.fotter_imp_div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #403b3b;
+  padding-left: 124px;
+  padding-right: 124px;
+}
+
+
+.footer_imp_d{
+  display: flex;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.footer_imp_d:hover{
+  opacity: 0.5;
+}
+
 
 /* Footer endet hier */
 
