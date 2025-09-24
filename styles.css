@@ -9,10 +9,7 @@ p{
   
 }
 
-.limitation-container{
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 
 .main_recipes_links {
   text-decoration: none;
@@ -328,10 +325,12 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #403b3b;
+  background-color: #403b3b;;
+
   padding-left: 124px;
   padding-right: 124px;
-  border: none;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 
 
