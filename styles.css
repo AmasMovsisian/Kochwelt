@@ -4,6 +4,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+p{
+  margin: 0;
+  
+}
+
 .limitation-container{
   max-width: 1440px;
   margin: 0 auto;
@@ -94,7 +99,7 @@ nav a {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(239, 239, 239, 0.9);
+  background-color: rgba(239, 239, 239, 0.98);
   backdrop-filter: 10px;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;

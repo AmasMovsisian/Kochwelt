@@ -6,6 +6,11 @@
 
 }
 
+p{
+  margin: 0;
+  
+}
+
 .limitation-container{
   max-width: 1440px;
   margin: 0 auto;
@@ -306,7 +311,7 @@ h3 {
     }
 
     h5 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .ingredients_for_text {
@@ -393,15 +398,23 @@ h3 {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    .recipe_headlining {
-        font-size: 18px;
-    }
 
 }
 
+@media(max-width:464px) {
+
+    .hero_infos{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap: 16px;
+    }
+
+
+}
 
 
 @media(max-width:404px) {
@@ -464,11 +477,11 @@ h3 {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .recipe_headlining {
-        font-size: 18px;
+        font-size: 22px;
     }
 
         .hero_infos_2 {
