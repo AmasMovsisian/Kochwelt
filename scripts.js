@@ -11,11 +11,13 @@ function hideSidebar(event){
   sidebar.style.display = "none";
 }
 
+
+
 function sendMail(event) {
   event.preventDefault();
   const data = new FormData(event.target);
 
-  fetch("YOUR_URL", {
+  fetch("https://formspree.io/f/xovkqgoj", {
     method: "POST",
     body: new FormData(event.target),
     headers: {

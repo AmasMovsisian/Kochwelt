@@ -38,11 +38,10 @@
 
   </header>
 
-  <!-- Hier beginnt das Kontaktformular - Header übernommen aus index -->
 
 
   <section id="kontakt" class="contact-section">
-    <form class="contact-form">
+    <form onsubmit="sendMail(event)" class="contact-form">
       <h3>Kontaktiere uns</h3>
       <label for="name">Dein Name:</label>
       <input type="text" id="name" name="name" required>
@@ -52,10 +51,11 @@
       <label for="message">Deine Nachricht:</label>
       <textarea id="message" name="message" rows="6" required></textarea>
 
-      <button type="submit" class="btn"><a class="email-sent" href="email_sent.html">Abschicken</a></button>
+      <button type="submit" class="btn">Abschicken</button>
     </form>
   </section>
 
+  
   <footer>
 
     <div class="footer-container">
