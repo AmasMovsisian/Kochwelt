@@ -1,8 +1,12 @@
+
+
 .hero {
     margin-left: 126px;
     margin-right: 126px;
 
 }
+
+
 
 .hero_image {
     width: 100%;
@@ -228,6 +232,11 @@ h3 {
 .profile_name {
     margin-left: 32px;
     font-size: 24px;
+}
+
+.limitation-container{
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @media(max-width:924px) {
