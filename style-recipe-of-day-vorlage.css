@@ -6,7 +6,10 @@
 
 }
 
-
+.limitation-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .hero_image {
     width: 100%;
@@ -14,6 +17,8 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+
 
 .recipe_headlining {
     margin-block-start: 0.0em;
@@ -234,10 +239,7 @@ h3 {
     font-size: 24px;
 }
 
-.limitation-container{
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 
 @media(max-width:924px) {
 
