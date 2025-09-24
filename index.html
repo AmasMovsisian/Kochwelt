@@ -1,183 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kochwelt</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/img/kochwelt_favicon_white.ico"
-    />
-    <script src="./scripts.js"></script>
-  </head>
 
-  <body>
-    <header class="header">
-      <a href="./index.html">
-        <img class="logo" src="./assets/img/logo.png" alt="Logo" />
-      </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kochwelt</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/img/kochwelt_favicon_white.ico" />
+  <script src="./scripts.js"></script>
+</head>
 
-      <nav class="nav">
-        <a href="./index.html" class="navbar_links">Start</a>
-        <a href="./recipe-of-day-amas.html" class="navbar_links"
-          >Rezept des Tages</a
-        >
-        <a href="./contact.html" class="navbar_links">Kontakt</a>
-        <a href="" class="navbar_links">Impressum</a>
-        <a href="" onclick="showSidebar(event)"
-          ><img
-            src="./assets/img/icons/Burger_Menu.png"
-            alt="Burger_Menu"
-            class="burger_Menu"
-        /></a>
+<body>
+  <header class="header">
+    <a href="./index.html">
+      <img class="logo" src="./assets/img/logo.png" alt="Logo" />
+    </a>
 
-        <ul class="sidebar">
-          <a href="#" onclick="hideSidebar(event)"
-            ><img
-              src="./assets/img/icons/Burger_Menu_Close.png"
-              alt="burger_menu_close"
-              class="burger_menu_close"
-          /></a>
-          <li><a href="./index.html">Start</a></li>
-          <li><a href="./recipe-of-day-amas.html">Rezept des Tages</a></li>
-          <li><a href="./contact.html">Kontakt</a></li>
-          <li><a href="">Impressum</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="nav">
+      <a href="./index.html" class="navbar_links">Start</a>
+      <a href="./recipe-of-day-akin.html" class="navbar_links">Rezept des Tages</a>
+      <a href="./contact.html" class="navbar_links">Kontakt</a>
+      <a href="./impressum.html" class="navbar_links">Impressum</a>
+      <a href="" onclick="showSidebar(event)"><img src="./assets/img/icons/Burger_Menu.png" alt="Burger_Menu"
+          class="burger_Menu" /></a>
 
-    <main class="main_section">
-      <img
-        src="./assets/img/Akin_Knoblauchgarnelen_Bowl/grilled-shrimp-7577730_1280.jpg"
-        alt="main_img"
-        class="main_img"
-      />
+      <ul class="sidebar">
+        <a href="#" onclick="hideSidebar(event)"><img src="./assets/img/icons/Burger_Menu_Close.png"
+            alt="burger_menu_close" class="burger_menu_close" /></a>
+        <li><a href="./index.html">Start</a></li>
+        <li><a href="./recipe-of-day-akin.html">Rezept des Tages</a></li>
+        <li><a href="./contact.html">Kontakt</a></li>
+        <li><a href="./impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <section class="main_text">
-        <h2 class="main_headlining">Knoblauchgarnelen-Bowl</h2>
-        <span>
-          Ein schneller Urlaub für deine Sinne: Du liebst frische, exotische
-          Aromen, hast aber keine Lust auf stundenlanges Kochen? Dann ist diese
-          Knoblauchgarnelen-Bowl dein neues Lieblingsrezept! Stell dir vor:
-          saftige Garnelen, goldbraun gebraten mit aromatischem Knoblauch und
-          Rosmarin, umgeben von einer Explosion aus süßer Ananas und knackiger
-          Paprika. All das vereint in einer köstlichen Bowl, die dich gedanklich
-          direkt an einen sonnigen Strand entführt. Warte nicht länger und leg
-          los!
-        </span>
-        <button class="button">Rezept öffnen</button>
-      </section>
-    </main>
 
-    <article class="new_recipes">
-      <h2 class="new_recipes_headlining">Lust auf was Neues?</h2>
 
-      <section class="section_new_recipes">
+  <main class="main_section">
+    <img src="./assets/img/Akin_Knoblauchgarnelen_Bowl/grilled-shrimp-7577730_1280.jpg" alt="main_img"
+      class="main_img" />
+
+    <section class="main_text">
+      <h2 class="main_headlining">Knoblauchgarnelen-Bowl</h2>
+      <span class="main_recipe_text">
+        Ein Kurzurlaub für deine Sinne: Du liebst exotische Aromen, aber hast
+        keine Lust auf langes Kochen? Dann ist diese Knoblauchgarnelen-Bowl
+        genau das Richtige! Saftige Garnelen, goldbraun gebraten mit Knoblauch
+        und Rosmarin, treffen auf süße Ananas und knackige Paprika eine
+        Geschmacksexplosion, die dich direkt an einen sonnigen Strand
+        versetzt. Leg gleich los und genieße!
+      </span>
+      <a href="./recipe-of-day-akin.html"><button class="button">Rezept öffnen</button></a>
+    </section>
+  </main>
+
+  <article class="new_recipes">
+    <h2 class="new_recipes_headlining">Lust auf was Neues?</h2>
+
+    <section class="section_new_recipes">
+      <a href="./recipe-of-day-amas.html" class="main_recipes_links">
         <div class="new_recipes_img_text">
-          <img
-            src="./assets/img/Amas_Georgischer_Khachapuri/BG_Khachapuri.jpg"
-            alt="Rezept"
-            class="new_recipes_img"
-          />
+          <img src="./assets/img/Amas_Georgischer_Khachapuri/Khachapuri.jpg" alt="Rezept" class="new_recipes_img" />
           <h5>Georgischer Khachapuri</h5>
         </div>
+      </a>
 
+      <a href="./recipe-of-day-mohamed.html" class="main_recipes_links">
         <div class="new_recipes_img_text">
-          <img
-            src="./assets/img/Akin_Knoblauchgarnelen_Bowl/grilled-shrimp-7577730_1280.jpg"
-            alt="Rezept"
-            class="new_recipes_img"
-          />
-          <h5>Knoblauchgarnelen-Bowl</h5>
+          <img src="./assets/img/Mohamed_Frankfurter_Grüne_Soße/frankfurts-green-sauce-hero-image.jpg" alt="Rezept"
+            class="new_recipes_img" />
+          <h5>Frankfurter Grüne Soße</h5>
         </div>
+      </a>
 
+      <a href="./recipe-of-day-kris.html" class="main_recipes_links">
         <div class="new_recipes_img_text">
-          <img
-            src="./assets/img/croissant.jpg"
-            alt="Rezept"
-            class="new_recipes_img"
-          />
+          <img src="./assets/img/croissant.jpg" alt="Rezept" class="new_recipes_img" />
           <h5>Frische Croissants</h5>
         </div>
-      </section>
-    </article>
-
-    <section class="wib">
-      <h2 class="what_is_better_headlining">
-        Pfanne vs. Wok: Welches Küchen-Tool passt zu dir?
-      </h2>
-
-      <section class="section_what_is_better">
-        <div class="what_is_better_img_text">
-          <p>
-            In jeder Küche findet man sie: die klassische Pfanne. Sie ist der
-            Alleskönner für das Braten von Fleisch, Fisch und Gemüse. Ihre
-            große, flache Bodenfläche sorgt für maximalen Kontakt mit der Hitze,
-            was ein gleichmäßiges Anbraten und die Bildung einer knusprigen
-            Kruste ermöglicht. Für Omeletts, Steaks oder Pancakes ist sie die
-            unangefochtene Nummer eins. Der Wok hingegen ist ein Spezialist. Mit
-            seiner gewölbten Form und den hohen Wänden ist er perfekt für das
-            schnelle Garen bei hohen Temperaturen, das sogenannte "Stir-Frying".
-            Durch die konzentrierte Hitze am Boden und die geringere Hitze an
-            den Seiten können Zutaten schnell gegart werden, wobei sie knackig
-            und saftig bleiben. Das macht ihn ideal für asiatische Gerichte.
-            <br />
-            <br />
-            Für den alltäglichen Gebrauch ist die Pfanne die praktischere Wahl.
-            Sie ist vielseitig einsetzbar und deckt die meisten Kochbedürfnisse
-            ab. Wer jedoch gerne asiatisch kocht oder Gemüse schnell und
-            schonend zubereiten möchte, wird die einzigartigen Vorteile eines
-            Woks schätzen. Letztlich hängt die Wahl von deinem persönlichen
-            Kochstil ab.
-          </p>
-
-          <p>
-            <img
-              src="./assets/img/wok.jpg"
-              alt="what_is_better_img"
-              class="what_is_better_img"
-            />
-          </p>
-        </div>
-      </section>
+      </a>
     </section>
+  </article>
 
-    <footer>
-      <div class="limitation-container footer-container">
-        <img
-          class="logo-big"
-          src="./assets/img/logo-kochwelt-white.svg"
-          alt="Kochwelt Logo"
-        />
-        <a href="index.html"
-          ><img
-            class="logo-small"
-            src="./assets/img/logo_small_white.svg"
-            alt="Kochwelt Logo"
-        /></a>
-        <div class="social-media">
-          <a href="https://www.facebook"
-            ><img
-              class="sm-logo-footer"
-              src="./assets/img/facebook_white.png"
-              alt="Facebook Logo"
-          /></a>
-          <a href="https://www.instagram.com"
-            ><img
-              class="sm-logo-footer"
-              src="./assets/img/instagram_white.png"
-              alt="Instagram Logo"
-          /></a>
-          <a href="https://www.x.com"
-            ><img
-              class="sm-logo-footer"
-              src="./assets/img/x-logo-white.png"
-              alt="X Logo"
-          /></a>
-        </div>
+  <section class="wib">
+    <h2 class="what_is_better_headlining">
+      Pfanne vs. Wok: Welches Küchen-Tool passt zu dir?
+    </h2>
+
+    <section class="section_what_is_better">
+      <div class="what_is_better_img_text">
+        <p>
+          In fast jeder Küche ist sie zu finden: die Pfanne. Sie eignet sich
+          perfekt zum Braten von Fleisch, Fisch, Gemüse, Steaks, Omeletts oder
+          Pancakes. Ihre flache Bodenfläche sorgt für gleichmäßige
+          Hitzeverteilung und eine knusprige Kruste. Für den täglichen
+          Gebrauch ist sie besonders praktisch und deckt viele Kochbedürfnisse
+          ab.
+          <br />
+          <br />
+          Der Wok überzeugt mit seiner gewölbten Form und den hohen Seiten.
+          Ideal für das schnelle Garen bei hoher Temperatur („Stir-Frying“),
+          bleiben Zutaten knackig und saftig. Wer gerne asiatisch oder gesund
+          kocht, wird die Vorteile des Woks schätzen. Letztlich hängt die Wahl
+          vom persönlichen Kochstil ab.
+        </p>
+
+        <p>
+          <img src="./assets/img/wok.jpg" alt="what_is_better_img" class="what_is_better_img" />
+        </p>
       </div>
-    </footer>
-  </body>
+    </section>
+  </section>
+
+  <footer>
+    <div class="limitation-container footer-container">
+      <img class="logo-big" src="./assets/img/logo-kochwelt-white.svg" alt="Kochwelt Logo" />
+      <a href="index.html"><img class="logo-small" src="./assets/img/logo_small_white.svg" alt="Kochwelt Logo" /></a>
+      <div class="social-media">
+        <a href="https://www.facebook"><img class="sm-logo-footer" src="./assets/img/facebook_white.png"
+            alt="Facebook Logo" /></a>
+        <a href="https://www.instagram.com"><img class="sm-logo-footer" src="./assets/img/instagram_white.png"
+            alt="Instagram Logo" /></a>
+        <a href="https://www.x.com"><img class="sm-logo-footer" src="./assets/img/x-logo-white.png" alt="X Logo" /></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
 </html>
