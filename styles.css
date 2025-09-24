@@ -475,7 +475,12 @@ footer {
     justify-content: center;
     margin-left: 126px;
     margin-right: 126px;
+    gap: 16px;
 
+  }
+
+  .what_is_better_headlining{
+    margin-bottom: 32px;
   }
 
   .what_is_better_img {
@@ -483,13 +488,35 @@ footer {
     width: 550px;
     height: 100%;
   }
+  
+ .fotter_imp_div{
+  flex-direction: column;
+  padding-bottom: 8px;
+  }
+
+}
+
+@media (max-width: 876px) {
+
+    .new_recipes_img {
+    width: 250px;
+    height: 250px;
+    margin-top: 42px;
+  }
+
+  .new_recipes_headlining {
+    margin-top: 32px;
+  }
 
 
+  .section_new_recipes {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 776px) {
   .header {
-    justify-content: center;
+    justify-content: space-between;
   }
 
   h2 {
@@ -506,20 +533,8 @@ footer {
     margin: 0;
   }
 
-  .new_recipes_img {
-    width: 250px;
-    height: 250px;
-    margin-top: 42px;
-  }
-
-  .new_recipes_headlining {
-    margin-top: 32px;
-  }
 
 
-  .section_new_recipes {
-    flex-direction: column;
-  }
 
   .what_is_better_img_text {
     flex-direction: column-reverse;
@@ -569,6 +584,8 @@ footer {
     width: 350px;
     height: 100%;
   }
+
+
 }
 
 @media (max-width: 520px) {
@@ -582,10 +599,11 @@ footer {
     height: 186px;
   }
 
-  header {
+ .header {
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
+
 
   .logo {
     height: 42px;
