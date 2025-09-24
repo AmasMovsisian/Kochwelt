@@ -4,12 +4,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-p{
+p {
   margin: 0;
-  
 }
-
-
 
 .main_recipes_links {
   text-decoration: none;
@@ -33,13 +30,11 @@ header {
   justify-content: space-between;
   align-items: flex-end;
 
-  
   padding-right: 124px;
   padding-left: 124px;
   padding-top: 16px;
   padding-bottom: 6px;
   box-shadow: 0px 3px 2px rgb(0, 0, 0, 0.3);
- 
 }
 
 .logo {
@@ -188,6 +183,18 @@ h3 {
   opacity: 0.9;
 }
 
+.email_sent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border: #008000 1px solid;
+  background-color: #efefef;
+  height: 100vh;
+}
+
 /* Main section endet hier */
 
 h5 {
@@ -264,7 +271,6 @@ h5 {
   align-items: flex-start;
   margin-left: 124px;
   margin-right: 124px;
-
 }
 
 .what_is_better_img {
@@ -321,11 +327,11 @@ footer {
   cursor: pointer;
 }
 
-.fotter_imp_div{
+.fotter_imp_div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #403b3b;;
+  background-color: #403b3b;
 
   padding-left: 124px;
   padding-right: 124px;
@@ -333,8 +339,7 @@ footer {
   padding-top: 8px;
 }
 
-
-.footer_imp_d{
+.footer_imp_d {
   display: flex;
 
   color: white;
@@ -343,10 +348,9 @@ footer {
   transition: opacity 0.2s ease-in-out;
 }
 
-.footer_imp_d:hover{
+.footer_imp_d:hover {
   opacity: 0.5;
 }
-
 
 /* Footer endet hier */
 
@@ -385,7 +389,7 @@ footer {
   border: none;
   border-radius: 5px;
   margin-bottom: 15px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
 }
 
@@ -419,19 +423,13 @@ footer {
   text-align: center;
 }
 
-
-
-@media(max-width:1096px) {
-
+@media (max-width: 1096px) {
   .main_img {
     margin-right: 0px;
     height: 100%;
     width: 450px;
     object-fit: cover;
-
   }
-
-
 
   h3 {
     text-align: center;
@@ -476,10 +474,9 @@ footer {
     margin-left: 126px;
     margin-right: 126px;
     gap: 16px;
-
   }
 
-  .what_is_better_headlining{
+  .what_is_better_headlining {
     margin-bottom: 32px;
   }
 
@@ -488,17 +485,15 @@ footer {
     width: 550px;
     height: 100%;
   }
-  
- .fotter_imp_div{
-  flex-direction: column;
-  padding-bottom: 8px;
-  }
 
+  .fotter_imp_div {
+    flex-direction: column;
+    padding-bottom: 8px;
+  }
 }
 
 @media (max-width: 876px) {
-
-    .new_recipes_img {
+  .new_recipes_img {
     width: 250px;
     height: 250px;
     margin-top: 42px;
@@ -507,7 +502,6 @@ footer {
   .new_recipes_headlining {
     margin-top: 32px;
   }
-
 
   .section_new_recipes {
     flex-direction: column;
@@ -524,7 +518,6 @@ footer {
   }
 
   .main_headlining {
-
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -532,9 +525,6 @@ footer {
   .main_img {
     margin: 0;
   }
-
-
-
 
   .what_is_better_img_text {
     flex-direction: column-reverse;
@@ -550,15 +540,12 @@ footer {
   }
 
   .main_section {
-
     padding-right: 86px;
     padding-left: 86px;
   }
-
 }
 
-@media (max-width:660px) {
-
+@media (max-width: 660px) {
   .main_recipe_text {
     font-size: 14px;
     padding-left: 0;
@@ -568,7 +555,6 @@ footer {
   p {
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -584,8 +570,6 @@ footer {
     width: 350px;
     height: 100%;
   }
-
-
 }
 
 @media (max-width: 520px) {
@@ -599,11 +583,10 @@ footer {
     height: 186px;
   }
 
- .header {
+  .header {
     justify-content: center;
     align-items: center;
   }
-
 
   .logo {
     height: 42px;
@@ -653,7 +636,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-
   .main_img {
     width: 320px;
     height: 100%;
@@ -669,7 +651,6 @@ footer {
 }
 
 @media (max-width: 380px) {
-
   .main_img {
     width: 280px;
     height: 100%;
