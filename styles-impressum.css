@@ -3,11 +3,10 @@
     margin-right: 126px;
     margin-top: 32px;
     margin-bottom: 32px;
-}
-
-.limitation-container{
-  max-width: 1440px;
-  margin: 0 auto;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column; */
 }
 
 @media (max-width:767px){
