@@ -1,9 +1,14 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 p {
@@ -334,13 +339,12 @@ h5 {
 footer {
   background-color: #403b3b;
   height: 288px;
-  /* padding-right: 124px;
-  padding-left: 124px; */
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 300px;
+  justify-content: center;
+  /* gap: 300px; */
+  margin-top: auto;
 }
 
 .logo-small {
