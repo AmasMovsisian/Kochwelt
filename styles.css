@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 p {
@@ -25,15 +27,25 @@ p {
   font-weight: 500;
 }
 
-header {
+
+.content_limitation {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
   padding-right: 124px;
   padding-left: 124px;
   padding-top: 16px;
   padding-bottom: 6px;
+}
+
+header {
+  width: 100%;
   box-shadow: 0px 3px 2px rgb(0, 0, 0, 0.3);
 }
 
@@ -120,6 +132,15 @@ nav a {
 
 /* Header endet hier */
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+}
+
 .main_headlining {
   margin-bottom: 16px;
 }
@@ -161,8 +182,21 @@ h3 {
 .main_text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: flex-start;
+}
+
+.top_two {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.img_recipeofday {
+  display: flex;
+  gap: 24px;
 }
 
 .button {
@@ -203,10 +237,23 @@ h5 {
   margin: 0;
 }
 
+.hl_text_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
 .new_recipes {
   background-color: #efefef;
   padding-top: 24px;
   padding-bottom: 62px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100%;
 }
 
 .new_recipes_headlining {
@@ -221,6 +268,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 56px;
   margin-left: 124px;
   margin-right: 124px;
 }
@@ -285,13 +333,14 @@ h5 {
 
 footer {
   background-color: #403b3b;
-  display: flex;
-  justify-content: space-between;
   height: 288px;
-
+  /* padding-right: 124px;
+  padding-left: 124px; */
+  width: 100%;
+  display: flex;
   align-items: center;
-  padding-right: 124px;
-  padding-left: 124px;
+  justify-content: space-between;
+  gap: 300px;
 }
 
 .logo-small {
@@ -302,7 +351,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  gap: 224px;
 }
 
 .logo-big {
@@ -328,20 +377,21 @@ footer {
 }
 
 .fotter_imp_div {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #403b3b;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: baseline; */
+  /* background-color: #403b3b; */
 
   padding-left: 124px;
   padding-right: 124px;
   padding-bottom: 8px;
   padding-top: 8px;
+
 }
 
 .footer_imp_d {
   display: flex;
-
+  justify-content: center;
   color: white;
   text-align: center;
   text-decoration: none;
