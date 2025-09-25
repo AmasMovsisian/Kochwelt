@@ -4,7 +4,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.limitation-container{
+.content_limitation {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -18,7 +18,23 @@ body {
   font-weight: 500;
 }
 
+.header {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 124px;
+  padding-left: 124px;
+  padding-top: 16px;
+  padding-bottom: 6px;
+}
+
 header {
+  width: 100%;
+  box-shadow: 0px 3px 2px rgb(0, 0, 0, 0.3);
+}
+
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -28,7 +44,7 @@ header {
   padding-top: 16px;
   padding-bottom: 6px;
   box-shadow: 0px 3px 2px rgb(0, 0, 0, 0.3);
-}
+} */
 
 .contact-section {
   margin-top: 8px;
@@ -118,51 +134,7 @@ nav a {
 /* Header endet hier */
 
 
-footer {
-  background-color: #403b3b;
-  display: flex;
-  justify-content: space-between;
-  height: 288px;
 
-  align-items: center;
-  padding-right: 88px;
-  padding-left: 88px;
-}
-
-.logo-small {
-  display: none;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.logo-big {
-  height: 80px;
-  object-fit: contain;
-}
-
-.sm-logo-footer {
-  height: 32px;
-  width: 32px;
-  object-fit: contain;
-}
-
-.social-media {
-  display: flex;
-  gap: 16px;
-}
-
-.social-media a:hover {
-  transform: scale(1.1);
-  transition: all 0.15s ease-in-out;
-  cursor: pointer;
-}
-
-/* Footer endet hier */
 
 /* CSS für contact.html */
 
