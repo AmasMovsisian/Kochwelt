@@ -1,8 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .impressum{
     margin-left: 126px;
     margin-right: 126px;
     margin-top: 32px;
     margin-bottom: 32px;
+    flex: 1;
 }
 
 .limitation-container{

@@ -1,5 +1,16 @@
 
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main_recipe{
+    flex: 1;
+}
+
+
 .hero {
     margin-left: 126px;
     margin-right: 126px;

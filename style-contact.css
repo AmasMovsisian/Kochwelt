@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .limitation-container{
@@ -20,6 +23,7 @@ body {
 
 .contact-section {
   margin-top: 8px;
+  flex: 1;
 }
 
 .logo {
@@ -167,6 +171,7 @@ nav a {
   border-radius: 10px;
   width: 100%;
   max-width: 500px;
+  max-height: 500px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
