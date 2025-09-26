@@ -40,7 +40,6 @@ p {
 
 .header {
   display: flex;
-  display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding-right: 124px;
