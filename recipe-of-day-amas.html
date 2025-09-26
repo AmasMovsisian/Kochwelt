@@ -13,34 +13,40 @@
 <body>
 
   <header class="header">
-   
-    <a href="./index.html">
-      <img class="logo" src="./assets/img/logo.png" alt="Logo" />
-    </a>
 
-    <nav class="nav">
-      <a href="./index.html" class="navbar_links">Start</a>
-      <a href="./recipe-of-day-akin.html" class="navbar_links">Rezept des Tages</a>
-      <a href="./contact.html" class="navbar_links">Kontakt</a>
-      <a href="./impressum.html" class="navbar_links">Impressum</a>
-      <a href="" onclick=showSidebar(event)><img src="./assets/img/icons/Burger_Menu.png" alt="Burger_Menu"
-          class="burger_Menu"></a>
+    <div class="limitation_header">
 
-      <ul class="sidebar">
-        <a href="#" onclick=hideSidebar(event)><img src="./assets/img/icons/Burger_Menu_Close.png"
-            alt="burger_menu_close" class="burger_menu_close"></a>
-        <li><a href="./index.html">Start</a></li>
-        <li><a href="./recipe-of-day-akin.html">Rezept des Tages</a></li>
-        <li><a href="./contact.html">Kontakt</a></li>
-        <li><a href="./impressum.html">Impressum</a></li>
-      </ul>
-    </nav>
+      <a href="./index.html">
+        <img class="logo" src="./assets/img/logo.png" alt="Logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="./index.html" class="navbar_links">Start</a>
+        <a href="./recipe-of-day-akin.html" class="navbar_links">Rezept des Tages</a>
+        <a href="./contact.html" class="navbar_links">Kontakt</a>
+        <a href="./impressum.html" class="navbar_links">Impressum</a>
+        <a href="" onclick="showSidebar(event)"><img src="./assets/img/icons/Burger_Menu.png" alt="Burger_Menu"
+            class="burger_Menu" /></a>
+
+        <ul class="sidebar">
+          <a href="#" onclick="hideSidebar(event)"><img src="./assets/img/icons/Burger_Menu_Close.png"
+              alt="burger_menu_close" class="burger_menu_close" /></a>
+          <li><a href="./index.html">Start</a></li>
+          <li><a href="./recipe-of-day-akin.html">Rezept des Tages</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+          <li><a href="./impressum.html">Impressum</a></li>
+        </ul>
+      </nav>
+
+    </div>
 
   </header>
 
   <main>
 
   <section class="hero">
+
+    <div class=" limitation-container">
 
     <h1 class="recipe_headlining">Georgischer Khachapuri</h1>
     <img src="./assets/img/Amas_Georgischer_Khachapuri/BG_Khachapuri.jpg" alt="hero_image" class="hero_image">
@@ -62,6 +68,8 @@
         <h5>21.09.2025</h5>
       </div>
 
+      </div>
+
     </section>
 
     <div class="hero_line">
@@ -72,7 +80,7 @@
   <section class="section_portions_ingredients">
 
 
-    <section class="section_portions">
+    <section class="section_portions limitation-container">
 
       <label class="ingredients_for_text" for="amount">Zutaten für</label>
       <input id="amount" min="2" max="6" value="2" type="number">
@@ -80,7 +88,7 @@
 
     </section>
 
-    <section class="section_ingredients">
+    <section class="section_ingredients limitation-container">
 
 
       <ul>
@@ -184,7 +192,7 @@
 
     </section>
 
-    <article class="preparation">
+    <article class="preparation limitation-container">
 
       <h2 class="recipe_headlining">Zubreitung</h2>
 
@@ -228,7 +236,7 @@
       </p>
     </article>
 
-    <section class="section_profile">
+    <section class="section_profile limitation-container">
       <h4 class="recipe_headlining">Rezept erstellt von</h4>
 
 
@@ -243,11 +251,11 @@
 
   </main>
 
-   <footer>
+    <footer>
 
     <section class="sec_footer">
 
-      <div class="footer-container">
+      <div class="footer-container limitation_footer">
 
         <a href="index.html"><img class="logo-big" src="./assets/img/logo-kochwelt-white.svg" alt="Kochwelt Logo" /></a>
 
@@ -272,11 +280,12 @@
 
 
     <div class="fotter_imp_div">
+      <div class="limitation_footer">
       <a href="impressum.html" class="footer_imp_d">Impressum Datenschutz</a>
+      </div>
     </div>
 
   </footer>
-
 
 
 </body>
