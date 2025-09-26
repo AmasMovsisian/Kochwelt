@@ -118,15 +118,15 @@ nav a {
 /* Header endet hier */
 
 
-footer {
+.sec_footer {
   background-color: #403b3b;
   display: flex;
   justify-content: space-between;
   height: 288px;
 
   align-items: center;
-  padding-right: 88px;
-  padding-left: 88px;
+  padding-right: 124px;
+  padding-left: 124px;
 }
 
 .logo-small {

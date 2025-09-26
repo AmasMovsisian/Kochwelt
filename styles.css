@@ -8,6 +8,7 @@ p {
   margin: 0;
 }
 
+
 .main_recipes_links {
   text-decoration: none;
   color: #230f0e;
@@ -283,7 +284,7 @@ h5 {
 
 /* Section what is better ende hier */
 
-footer {
+.sec_footer {
   background-color: #403b3b;
   display: flex;
   justify-content: space-between;
@@ -610,7 +611,7 @@ footer {
   .burger_Menu {
     width: 35px;
     height: auto;
-    padding-top: 12px;
+    padding-top: 0px;
     padding-bottom: 0px;
   }
 
